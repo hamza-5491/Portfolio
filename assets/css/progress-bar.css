@@ -1,0 +1,267 @@
+.my-resume .progress {
+    border-radius: 10px;
+    background: #212428;
+    box-shadow: inset 8px 8px 16px rgb(0 0 0 / 46%), inset -8px -8px 16px rgb(56 62 69 / 46%);
+    padding: 3px;
+}
+
+.my-resume .progress-chart p {
+    margin-bottom: 15px;
+    color: #c3cedd;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.my-resume .progress .progress-bar {
+    background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+    border-radius: 10px;
+}
+
+/* progress-bar animation */
+
+.photo {
+    animation: photo 1s linear forwards;
+    opacity: 0;
+}
+
+.photo span {
+    position: absolute;
+    color: #c3cedd;
+    margin-left: -10px;
+    text-align: end;
+    margin-top: -40px;
+    animation: photo 1s linear forwards;
+}
+
+@keyframes photo {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.figma span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -10px;
+    margin-top: -40px;
+    animation: figma 1s linear forwards;
+}
+
+.figma {
+    animation: figma 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes figma {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+        opacity: 1;
+    }
+}
+
+.adobe-xd span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -10px;
+    margin-top: -40px;
+    animation: adobe-xd 1s linear forwards;
+}
+
+.adobe-xd {
+    animation: adobe-xd 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes adobe-xd {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+        opacity: 1;
+    }
+}
+.adobe span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -10px;
+    margin-top: -40px;
+    animation: adobe 1s linear forwards;
+}
+
+.adobe {
+    animation: adobe 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes adobe {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+        opacity: 1;
+    }
+}
+.design span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -10px;
+    margin-top: -40px;
+    animation: design 1s linear forwards;
+}
+
+.design {
+    animation: design 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes design {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+        opacity: 1;
+    }
+}
+.html span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -30px;
+    margin-top: -40px;
+    animation: html 1s linear forwards;
+}
+
+.html {
+    animation: html 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+        opacity: 1;
+    }
+}
+.css span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -30px;
+    margin-top: -40px;
+    animation: css 1s linear forwards;
+}
+
+.css {
+    animation: css 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+        opacity: 1;
+    }
+}
+.java span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -30px;
+    margin-top: -40px;
+    animation: java 1s linear forwards;
+}
+
+.java {
+    animation: java 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+        opacity: 1;
+    }
+}
+.software span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -30px;
+    margin-top: -40px;
+    animation: software 1s linear forwards;
+}
+
+.software {
+    animation: software 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes software {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+        opacity: 1;
+    }
+}
+.plugin span {
+    position: absolute;
+    color: #c3cedd;
+    text-align: end;
+    margin-left: -30px;
+    margin-top: -40px;
+    animation: plugin 1s linear forwards;
+}
+
+.plugin {
+    animation: plugin 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes plugin {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+        opacity: 1;
+    }
+}
+
